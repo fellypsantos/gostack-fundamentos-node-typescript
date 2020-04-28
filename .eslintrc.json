@@ -21,6 +21,8 @@
   },
   "plugins": ["@typescript-eslint", "prettier"],
   "rules": {
+    "no-return-assign": "off",
+    "no-param-reassign": "off",
     "prettier/prettier": "error",
     "import/extensions": [
       "error",
